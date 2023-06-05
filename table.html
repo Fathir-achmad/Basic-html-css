@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse:separate;
+            text-align: center;
+            padding: 20px;
+            /* border-radius: */
+            background-color: lightgrey;
+        }
+        body{
+            background: linear-gradient(90deg, blue,red);
+        }
+        .image{
+            width: 100%;
+            height: 100px;
+            cursor: pointer;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .main{
+            width: 75%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "main"> 
+        <table border = 2px>
+            <tr>
+                <th>No.</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Food</th>
+                <th>Group</th>
+            </tr>
+    
+            <tr>
+                <td>1.</td>
+            <td><div class="image"><img src="https://cdn1-production-images-kly.akamaized.net/Nce9iHGeJ-ApH8drKwcxRkQ70KU=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3277340/original/038415400_1603594765-page.jpg"></div></td>
+            <td>Kucing <sub>garong</sub></td>
+            <td>Ikan <sup>goyeng</sup></td>
+            <td>
+                <input type="radio" name="kucing">
+                <label for="kucing"><strong>Vertebrate</strong></label>
+                <input type="radio" name="kucing">
+                <label for="kucing"><strong>Invertebrate</strong></label>
+            </td>
+            </tr>
+            
+            <tr>
+                <td>2.</td>
+            <td><div class="image"><img src="https://i.pinimg.com/736x/23/8a/b0/238ab0e91b11c5b7c66822f9fd122236.jpg"></div></td>
+            <td>Anjing <sub>kacili</sub></td>
+            <td>Tulang <sup>to the bone</sup></td>
+            <td>
+                <input type="radio" name="anjing">
+                <label for="anjing"><strong>Vertebrate</strong></label>
+                <input type="radio" name="anjing">
+                <label for="anjing"><strong>Invertebrate</strong></label>
+            </td>
+            </tr>
+    
+            <tr>
+                <td>3.</td>
+            <td><div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR61i8YkMPeuJGxZ_lvrO6NxMMs5fPR0CgxZQ&usqp=CAU"></div></td>
+            <td>Ikan <sub>duyung</sub></td>
+            <td>Plankton <sup>chumbucket</sup></td>
+            <td>
+                <input type="radio" name="Ikan">
+                <label for="Ikan"><strong>Vertebrate</strong></label>
+                <input type="radio" name="Ikan">
+                <label for="Ikan"><strong>Invertebrate</strong></label>
+            </td>
+            </tr>
+    
+            <tr>
+                <td>4.</td>
+            <td><div class="image"><img src="https://i.pinimg.com/originals/d3/ab/1a/d3ab1a0c938fb2769de82861e945379a.jpg"></div></td>
+            <td>Burung <sub>siapa</sub></td>
+            <td>Biji <sup>Bijian</sup></td>
+            <td>
+                <input type="radio" name="Burung">
+                <label for="Burung"><strong>Vertebrate</strong></label>
+                <input type="radio" name="Burung">
+                <label for="Burung"><strong>Invertebrate</strong></label>
+            </td>
+            </tr>
+    
+            <tr>
+                <td>5.</td>
+            <td><div class="image"><img src="https://pbs.twimg.com/media/B8Mp8X3CUAAmh7T.jpg"></div></td>
+            <td>Monyet <sub>lu</sub></td>
+            <td>Pisang <sup>ijo</sup></td>
+            <td>
+                <input type="radio" name="Monyet">
+                <label for="Monyet"><strong>Vertebrate</strong></label>
+                <input type="radio" name="Monyet">
+                <label for="Monyet"><strong>Invertebrate</strong></label>
+            </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
